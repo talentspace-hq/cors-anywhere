@@ -12,6 +12,13 @@ cookies. Requesting [user credentials](http://www.w3.org/TR/cors/#user-credentia
 The app can be configured to require a header for proxying a request, for example to avoid
 a direct visit from the browser.
 
+## Deployment on Heroku
+
+This repo is linked with our Heroku account to automatically deploy the proxy server on every push to `master`
+The app is availabe at: https://ts-cors-anywhere.herokuapp.com/
+
+Credentials for Heroku are in 1Pass or you can request to be added as member of our organization there.
+
 ## Example
 
 ```javascript
